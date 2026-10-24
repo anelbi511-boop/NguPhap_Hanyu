@@ -1,0 +1,8 @@
+# Optional heavy engines for the Windows PC. Do NOT install on low-end machines
+# blindly: HanLP / LTP download large model files on first use.
+# Install with:  pip install -r requirements-advanced.txt
+# The server runs and passes all tests WITHOUT these packages, using the
+# built-in rule-based fallback parser (results labelled source="rule_fallback").
+-r requirements.txt
+hanlp==2.1.0
+ltp==4.2.13

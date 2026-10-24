@@ -1,0 +1,48 @@
+{"id": "eval-001", "text": "我昨天看了一本书。", "type": "valid", "hsk_level": 2, "expected_patterns": ["了-完成体"], "note_vi": "了 sau động từ báo hành động đã hoàn thành, kèm lượng từ bổ sung đối tượng cụ thể."}
+{"id": "eval-002", "text": "我去过中国两次。", "type": "valid", "hsk_level": 2, "expected_patterns": ["过-经历体"], "note_vi": "过 diễn tả trải nghiệm đã từng xảy ra, đi với số lần 两次."}
+{"id": "eval-003", "text": "他去过医院，医生说没什么问题。", "type": "valid", "hsk_level": 3, "expected_patterns": ["过-经历体"], "note_vi": "过 chỉ việc đã từng đi bệnh viện trong quá khứ, không nhấn mạnh trạng thái hiện tại."}
+{"id": "eval-004", "text": "墙上挂着一幅画。", "type": "valid", "hsk_level": 3, "expected_patterns": ["着-持续状态", "存现句"], "note_vi": "着 diễn tả trạng thái tĩnh đang duy trì; cấu trúc nơi chốn + V着 + đối tượng."}
+{"id": "eval-005", "text": "他笑着说没关系。", "type": "valid", "hsk_level": 3, "expected_patterns": ["着-伴随状态"], "note_vi": "V1着 + V2: hành động cười đi kèm hành động nói."}
+{"id": "eval-006", "text": "我昨天去过学校一次。", "type": "incorrect", "hsk_level": 2, "expected_patterns": ["过-误用", "了-完成体"], "note_vi": "Sai: mốc thời gian cụ thể 昨天 + số lần của một lần đi cụ thể thì dùng 了 (我昨天去了一次学校), 过 chỉ dùng cho trải nghiệm không gắn mốc cụ thể."}
+{"id": "eval-007", "text": "我把书放在桌子上了。", "type": "valid", "hsk_level": 3, "expected_patterns": ["把字句"], "note_vi": "把 + tân ngữ xác định + V + 在 + nơi chốn + 了: đặt sách lên bàn, có kết quả vị trí rõ ràng."}
+{"id": "eval-008", "text": "请把门关上。", "type": "valid", "hsk_level": 3, "expected_patterns": ["把字句", "趋向/结果补语"], "note_vi": "Câu mệnh lệnh với 把, động từ 关 có bổ ngữ 上, không dùng động từ trần."}
+{"id": "eval-009", "text": "我把这本书很喜欢。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["把字句-误用"], "note_vi": "Sai: 喜欢 là động từ tâm lý, không có tính xử lý/disposal nên không dùng 把. Đúng: 我很喜欢这本书。"}
+{"id": "eval-010", "text": "我把作业做。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["把字句-误用"], "note_vi": "Sai: câu 把 không được kết thúc bằng động từ trần; cần bổ ngữ hoặc 了: 我把作业做完了。"}
+{"id": "eval-011", "text": "杯子被弟弟打碎了。", "type": "valid", "hsk_level": 3, "expected_patterns": ["被字句", "结果补语"], "note_vi": "被 + tác nhân + V + bổ ngữ kết quả 碎 + 了, nhấn mạnh đối tượng chịu tác động."}
+{"id": "eval-012", "text": "我的自行车被偷了。", "type": "valid", "hsk_level": 3, "expected_patterns": ["被字句"], "note_vi": "被 lược bỏ tác nhân khi không rõ/không cần nêu người trộm."}
+{"id": "eval-013", "text": "杯子被弟弟打碎。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["被字句-误用"], "note_vi": "Thiếu tự nhiên/sai: câu 被 thường cần 了 hoặc bổ ngữ hoàn chỉnh ở cuối; nên nói 杯子被弟弟打碎了。"}
+{"id": "eval-014", "text": "我把自行车被偷了。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["把-被混用"], "note_vi": "Sai lẫn 把 và 被 trong cùng một khung. Đúng: 我的自行车被偷了 (bị động) — chủ thể chịu tác động phải đứng đầu câu 被."}
+{"id": "eval-015", "text": "这本书是我昨天买的。", "type": "valid", "hsk_level": 3, "expected_patterns": ["是……的"], "note_vi": "是……的 nhấn mạnh thời gian của hành động đã xảy ra: mua hôm qua."}
+{"id": "eval-016", "text": "他是坐飞机来的。", "type": "valid", "hsk_level": 3, "expected_patterns": ["是……的"], "note_vi": "是……的 nhấn mạnh phương thức: đến bằng máy bay."}
+{"id": "eval-017", "text": "他是昨天买书。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["是……的-误用"], "note_vi": "Sai: thiếu 的 cuối câu trong cấu trúc 是……的. Đúng: 他是昨天买的书 / 这本书是他昨天买的。"}
+{"id": "eval-018", "text": "他比我高一点儿。", "type": "valid", "hsk_level": 3, "expected_patterns": ["比-比较句"], "note_vi": "A 比 B + tính từ + 一点儿: so sánh hơn ở mức nhẹ."}
+{"id": "eval-019", "text": "今天比昨天冷得多。", "type": "valid", "hsk_level": 3, "expected_patterns": ["比-比较句"], "note_vi": "得多 đứng sau tính từ để chỉ chênh lệch lớn."}
+{"id": "eval-020", "text": "我比他很高。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["比-比较句-误用"], "note_vi": "Sai: câu so sánh 比 không dùng 很 trước tính từ. Đúng: 我比他高。"}
+{"id": "eval-021", "text": "我听不懂老师说的话。", "type": "valid", "hsk_level": 3, "expected_patterns": ["可能补语", "结果补语"], "note_vi": "听不懂 là bổ ngữ khả năng dạng phủ định của 听懂 (nghe hiểu)."}
+{"id": "eval-022", "text": "他把房间打扫干净了。", "type": "valid", "hsk_level": 4, "expected_patterns": ["把字句", "结果补语"], "note_vi": "把 + 打扫 + 干净 (bổ ngữ kết quả) + 了: dọn đến mức sạch."}
+{"id": "eval-023", "text": "我看不电视里的字幕。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["可能补语-误用"], "note_vi": "Sai: thiếu động từ kết quả 见 trong bổ ngữ khả năng. Đúng: 我看不见电视里的字幕。"}
+{"id": "eval-024", "text": "我们明天在图书馆见面吧。", "type": "valid", "hsk_level": 2, "expected_patterns": ["地点状语-动词前"], "note_vi": "Trạng ngữ nơi chốn 在图书馆 đứng trước động từ 见面 — trật tự chuẩn."}
+{"id": "eval-025", "text": "我去学校昨天。", "type": "incorrect", "hsk_level": 1, "expected_patterns": ["时间状语-词序误用"], "note_vi": "Sai trật tự: trạng ngữ thời gian 昨天 phải đứng trước động từ. Đúng: 我昨天去学校。"}
+{"id": "eval-026", "text": "他吃饭在食堂每天。", "type": "incorrect", "hsk_level": 2, "expected_patterns": ["状语-词序误用"], "note_vi": "Sai: cả trạng ngữ thời gian 每天 và nơi chốn 在食堂 đều bị đặt sau động từ. Đúng: 他每天在食堂吃饭。"}
+{"id": "eval-027", "text": "他每天在食堂吃饭。", "type": "valid", "hsk_level": 2, "expected_patterns": ["时间状语-动词前", "地点状语-动词前"], "note_vi": "Trật tự chuẩn: chủ ngữ + thời gian + nơi chốn + động từ + tân ngữ."}
+{"id": "eval-028", "text": "他高兴的跳起来了。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["地-误用为的"], "note_vi": "Sai 的/地: trạng ngữ bổ nghĩa động từ phải dùng 地 — 他高兴地跳起来了。"}
+{"id": "eval-029", "text": "他跑的很快。", "type": "incorrect", "hsk_level": 2, "expected_patterns": ["得-误用为的"], "note_vi": "Sai 的/得: bổ ngữ trình độ sau động từ dùng 得 — 他跑得很快。"}
+{"id": "eval-030", "text": "他唱得歌很好听。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["的-误用为得"], "note_vi": "Sai 得/的: 歌 là tân ngữ của 唱, cụm 唱的歌 (định ngữ + 的). Đúng: 他唱的歌很好听。"}
+{"id": "eval-031", "text": "他跑得很快。", "type": "valid", "hsk_level": 2, "expected_patterns": ["得-程度补语"], "note_vi": "得 dẫn bổ ngữ trình độ/mức độ sau động từ 跑."}
+{"id": "eval-032", "text": "我买了三本书和两支笔。", "type": "valid", "hsk_level": 1, "expected_patterns": ["量词"], "note_vi": "Lượng từ đúng: 本 cho sách, 支 cho bút."}
+{"id": "eval-033", "text": "我买了三个书。", "type": "incorrect", "hsk_level": 1, "expected_patterns": ["量词-误用"], "note_vi": "Sai lượng từ: sách dùng 本, không dùng 个. Đúng: 我买了三本书。"}
+{"id": "eval-034", "text": "我想喝一杯子水。", "type": "incorrect", "hsk_level": 2, "expected_patterns": ["量词-误用"], "note_vi": "Sai: 杯 đã là lượng từ chứa đựng, không thêm 子. Đúng: 我想喝一杯水。"}
+{"id": "eval-035", "text": "我先去洗个澡。", "type": "valid", "hsk_level": 3, "expected_patterns": ["离合词"], "note_vi": "洗澡 là từ li hợp: chen 个 vào giữa 洗 và 澡 (洗个澡)."}
+{"id": "eval-036", "text": "我们昨天见了一次面。", "type": "valid", "hsk_level": 3, "expected_patterns": ["离合词"], "note_vi": "见面 tách ra với bổ ngữ số lần 了一次 chen giữa: 见了一次面."}
+{"id": "eval-037", "text": "我帮忙他很多次了。", "type": "incorrect", "hsk_level": 4, "expected_patterns": ["离合词-误用"], "note_vi": "Sai: 帮忙 là từ li hợp, không mang tân ngữ trực tiếp. Đúng: 我帮过他很多次 / 我给他帮了很多次忙。"}
+{"id": "eval-038", "text": "他去年结婚了他的女朋友。", "type": "incorrect", "hsk_level": 4, "expected_patterns": ["离合词-误用"], "note_vi": "Sai: 结婚 không mang tân ngữ trực tiếp. Đúng: 他去年和他的女朋友结婚了。"}
+{"id": "eval-039", "text": "我想研究生命科学。", "type": "ambiguous", "hsk_level": 4, "expected_patterns": ["分词歧义"], "note_vi": "Mơ hồ phân từ: 研究+生命+科学 (nghiên cứu khoa học sự sống) hoặc 研究生+命+科学 (cắt sai). Hệ thống phải báo segmentation disagreement thay vì chọn bừa."}
+{"id": "eval-040", "text": "咬死了猎人的狗。", "type": "ambiguous", "hsk_level": 5, "expected_patterns": ["结构歧义"], "note_vi": "Mơ hồ cấu trúc kinh điển: (1) cắn chết con chó của thợ săn; (2) chó của... — cụm 猎人的狗 có thể là tân ngữ, hoặc 猎人 là tân ngữ và 狗 là chủ ngữ bị lược. Phải trình bày cả hai cách hiểu."}
+{"id": "eval-041", "text": "乒乓球拍卖完了。", "type": "ambiguous", "hsk_level": 4, "expected_patterns": ["分词歧义"], "note_vi": "Mơ hồ phân từ: 乒乓球拍+卖完了 (vợt bóng bàn bán hết) hoặc 乒乓球+拍卖+完了 (buổi đấu giá bóng bàn kết thúc)."}
+{"id": "eval-042", "text": "南京市长江大桥很壮观。", "type": "ambiguous", "hsk_level": 4, "expected_patterns": ["分词歧义", "专有名词"], "note_vi": "Mơ hồ phân từ nổi tiếng: 南京市+长江大桥 (cầu Trường Giang ở Nam Kinh) hoặc 南京+市长+江大桥 (thị trưởng tên Giang Đại Kiều). Ngữ cảnh thường thì cách hiểu 1 đúng."}
+{"id": "eval-043", "text": "自从他来到北京以后，汉语进步了很多。", "type": "hsk", "hsk_level": 4, "expected_patterns": ["自从……以后"], "note_vi": "Mẫu câu HSK4: 自从……以后 đánh dấu mốc bắt đầu của thay đổi kéo dài tới hiện tại."}
+{"id": "eval-044", "text": "无论明天下不下雨，我们都去爬山。", "type": "hsk", "hsk_level": 5, "expected_patterns": ["无论……都"], "note_vi": "Mẫu câu HSK5: 无论 + điều kiện thay đổi + 都 — dù thế nào cũng thực hiện."}
+{"id": "eval-045", "text": "我把护照忘在家里了。", "type": "hsk", "hsk_level": 3, "expected_patterns": ["把字句", "结果补语-在"], "note_vi": "Mẫu HSK3 hay gặp trong đề thi: 把 + V + 在 + nơi chốn diễn tả kết quả vị trí ngoài ý muốn (quên hộ chiếu ở nhà)."}
+{"id": "eval-046", "text": "这件衣服比那件便宜二十块。", "type": "hsk", "hsk_level": 2, "expected_patterns": ["比-比较句", "差额补语"], "note_vi": "Mẫu HSK2: sau tính từ trong câu 比 có thể thêm lượng chênh lệch cụ thể 二十块。"}
+{"id": "eval-047", "text": "我还没做完作业呢。", "type": "valid", "hsk_level": 2, "expected_patterns": ["结果补语", "没-否定"], "note_vi": "Phủ định hành động chưa hoàn thành dùng 没 (không dùng 不 và không giữ 了): 还没做完。"}
+{"id": "eval-048", "text": "请被把门打开。", "type": "incorrect", "hsk_level": 3, "expected_patterns": ["把-被混用"], "note_vi": "Sai: 被 và 把 chen nhau vô nghĩa trong câu mệnh lệnh. Đúng: 请把门打开。"}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Release policy: no cleartext anywhere. LAN pairing must use TLS or Tailscale (100.x is still encrypted by WireGuard, but Android requires https for app traffic; use the server's TLS endpoint). -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors><certificates src="system" /></trust-anchors>
+    </base-config>
+</network-security-config>
