@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.gradle/
+build/
+app/build/
+local.properties
+*.keystore
+.env
+server/data/*.db
+models/*.gguf
